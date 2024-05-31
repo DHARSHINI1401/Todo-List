@@ -1,0 +1,106 @@
+p {
+  color: #d1e2de;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+}
+p span{
+  color:#fe6601;
+}
+
+.top {
+  text-align: center;
+  margin-top: 20%;
+
+}
+button a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+button:hover {
+  background-color:#b14a06;
+  text-decoration: none;
+}
+
+button:active {
+  background-color: #833604;
+  transform: translateY(15%)
+}
+
+body {
+  background-image: url('../img/tt.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: sans-serif;
+
+
+}
+button{
+  background: #fe6601;
+  box-shadow: 15px #c2540b;
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 75px;
+  cursor: pointer;
+}
+
+.bt {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  /* justify-content: space-around; */
+
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  border-radius: 50px;
+  box-shadow: 0 2px 5px;
+  margin-top: 8%;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #fe6601;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #fe6601;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  margin: 15px 40%;
+}

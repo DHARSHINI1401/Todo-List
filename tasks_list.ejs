@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tasks_list.css">
+    <title>Task List</title>
+</head>
+
+<body>
+    <p>My ToDo!!</p>
+    <div class="dh">
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% tasks.forEach(task=> { %>
+                    <tr>
+                        <td>
+                            <%= task.title %>
+                        </td>
+                        <td>
+                            <%= task.description %>
+                        </td>
+                        <td>
+                            <%= task.date %>
+                        </td>
+                        <td><a href="/edit_page/<%=task.id%>">Edit your Task</a></td>
+                        <td><a href="/delete/<%=task.id%>">Delete your Task</a></td>
+                    </tr>
+                    <% }); %>
+            </tbody>
+    </div>
+
+
+</body>
+
+</html>
